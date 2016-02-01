@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.model;
+package ${package}.common.model;
 
 import java.io.Serializable;
 
@@ -11,6 +11,7 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     private String name;
+
     private Integer type;
 
     public String getName() {
