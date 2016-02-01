@@ -1,0 +1,1 @@
+# maven archetype for kyline项目common模块
